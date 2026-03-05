@@ -1,0 +1,64 @@
+# Multi-Vendor E-Commerce Management Platform
+
+## Project Description
+This project is a full-stack multi-vendor e-commerce platform where multiple vendors can create stores and sell products while customers can browse and place orders.
+
+## Features
+- User authentication (Register / Login)
+- Vendor store creation
+- Product management
+- Shopping cart
+- Order management
+- Role-based access (Admin, Vendor, Customer)
+
+## Tech Stack
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+
+### Frontend
+- React
+- Tailwind CSS
+- Axios
+
+## Project Structure
+
+project-root
+│
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   ├── services
+│   ├── config
+│   └── utils
+│
+├── frontend
+│   ├── pages
+│   ├── components
+│   ├── services
+│   ├── hooks
+│   └── context
+│
+└── docs
+
+## Installation
+
+### Clone Repository
+
+git clone <repo-url>
+
+### Backend Setup
+
+cd backend  
+npm install  
+npm run dev
+
+### Frontend Setup
+
+cd frontend  
+npm install  
+npm run dev
