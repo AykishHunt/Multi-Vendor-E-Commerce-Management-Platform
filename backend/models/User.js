@@ -8,6 +8,7 @@ name: {
 email: {
     type: String,
     required: true,
+    unique: true
 
 },
 password: {
@@ -19,6 +20,8 @@ role:{
     enum: ["admin", "vendor", "customer"],
     default : "customer"
 
-}
+},
+resetPasswordToken : String,
+resetPasswordExpire: Date
 },{ timestamps: true})
 module.exports = mongoose.model("User", userSchema)
