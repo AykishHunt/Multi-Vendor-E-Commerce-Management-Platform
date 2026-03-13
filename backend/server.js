@@ -29,6 +29,9 @@ const storeRoutes= require("./routes/storeRoutes")
 
 app.use("/api/store", storeRoutes)
 
+const productRoutes = require("./routes/productRoutes")
+app.use("/api/products", productRoutes)
+
 app.use(errorHandler)
 
 

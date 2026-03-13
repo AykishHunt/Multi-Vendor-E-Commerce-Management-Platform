@@ -1,4 +1,4 @@
-const { object } = require("joi")
+const { Object } = require("joi")
 const Store = require("../models/Store")
 
 

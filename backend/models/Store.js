@@ -38,4 +38,4 @@ const storeSchema = new mongoose.Schema({
         default: 0
     }
 }, {timestamps: true})
-module.exports = mongoose.model("store", storeSchema)
+module.exports = mongoose.model("Store", storeSchema)
