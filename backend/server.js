@@ -34,6 +34,12 @@ app.use("/api/products", productRoutes)
 
 app.use(errorHandler)
 
+const cartRoutes = require("./routes/cartRoutes")
+const orderRoutes = require("./routes/orderRoutes")
+
+app.use("/api/cart", cartRoutes)
+app.use("/api/order", orderRoutes)
+
 
 const PORT = process.env.PORT || 5000
 
